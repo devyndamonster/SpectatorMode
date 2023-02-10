@@ -11,7 +11,7 @@ using UnityEngine;
 
 namespace SpectatorMode
 {
-    [BepInPlugin("devyndamonster.h3vr.spectator", "H3VR Spectator", "0.1.0")]
+    [BepInPlugin("devyndamonster.h3vr.spectator", "H3VR Spectator", "0.1.1")]
     [BepInDependency(SodaliteConstants.Guid, SodaliteConstants.Version)]
     public class SpectatorMode : BaseUnityPlugin
     {

@@ -17,7 +17,7 @@
     <PackageReference Include="BepInEx.Core" Version="5.*" />
     <PackageReference Include="BepInEx.PluginInfoProps" Version="1.*" />
     <PackageReference Include="H3VR.GameLibs" Version="0.106.10" />
-    <PackageReference Include="Sodalite" Version="1.1.0" />
+    <PackageReference Include="Sodalite" Version="1.4.1" />
     <PackageReference Include="UnityEngine.Modules" Version="5.6.3" IncludeAssets="compile" />
   </ItemGroup>
   
