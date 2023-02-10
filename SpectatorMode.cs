@@ -30,7 +30,7 @@ namespace SpectatorMode
         public void IncreaseScale(object sender, ButtonClickEventArgs args)
         {
             GM.CurrentPlayerRoot.transform.localScale += Vector3.one;
-            WristMenuAPI.Instance.transform.localScale = GM.CurrentPlayerRoot.transform.localScale;
+            WristMenuAPI.Instance2.transform.localScale = GM.CurrentPlayerRoot.transform.localScale;
         }
 
 
@@ -39,7 +39,7 @@ namespace SpectatorMode
             if (GM.CurrentPlayerRoot.transform.localScale.x < 2f) GM.CurrentPlayerRoot.transform.localScale = Vector3.one;
             else GM.CurrentPlayerRoot.transform.localScale -= Vector3.one;
 
-            WristMenuAPI.Instance.transform.localScale = GM.CurrentPlayerRoot.transform.localScale;
+            WristMenuAPI.Instance2.transform.localScale = GM.CurrentPlayerRoot.transform.localScale;
         }
 
 
